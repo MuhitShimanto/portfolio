@@ -103,7 +103,7 @@ nav ul li:hover {
   padding: 100px 0 45px 0;
   margin-top: -65px;
 
-  background-image: url("./images/muhit.png"), url(./images/ellipse-blue.png);
+  background-image: url("./images/muhit-min.png"), url(./images/ellipse-blue.png);
   background-position: center top, center bottom;
   background-size: 700px, 865px;
   background-repeat: no-repeat;
