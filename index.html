@@ -10,7 +10,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Muhit Shimanto | Home</title>
   </head>
   <body class="urbanist-font">
@@ -151,10 +157,26 @@
       </div>
       <div class="footer-socials flex-center">
         <ul class="flex">
-          <li><a href="https://www.facebook.com/Muhit.Shimanto07"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a></li>
-          <li><a href="https://www.instagram.com/muhit.shimanto27/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
-          <li><a href="https://x.com/Muhit_Shimanto"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a></li>
-          <li><a href="https://github.com/MuhitShimanto"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+          <li>
+            <a href="https://www.facebook.com/Muhit.Shimanto07"
+              ><i class="fa-brands fa-facebook" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/muhit.shimanto27/"
+              ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://x.com/Muhit_Shimanto"
+              ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/MuhitShimanto"
+              ><i class="fa-brands fa-github" style="color: #ffffff"></i
+            ></a>
+          </li>
         </ul>
       </div>
       <div class="footer-copyright flex">
@@ -167,5 +189,24 @@
         </p>
       </div>
     </footer>
+    <script>
+      document.addEventListener("contextmenu", (event) =>
+        event.preventDefault()
+      );
+      document.onkeydown = function (e) {
+        if (e.key === "F12") {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.key === "I") {
+          return false;
+        }
+        if (e.ctrlKey && e.shiftKey && e.key === "J") {
+          return false;
+        }
+        if (e.ctrlKey && e.key === "U") {
+          return false;
+        }
+      };
+    </script>
   </body>
 </html>
